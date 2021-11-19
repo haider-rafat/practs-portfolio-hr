@@ -1,0 +1,103 @@
+body{
+    font-family: 'Yuji Mai', serif;
+    margin: 0;
+}
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 40px;
+    
+    text-align: center;
+
+}
+
+.flaxible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.orange{
+    
+    color: coral;
+}
+
+.half-width{
+    width: 50%;
+    height: auto;
+
+    padding-left:5% ;
+    padding-top: 5%;
+    padding-right: 3%;
+    text-align: justify;
+}
+.half-width img{
+    width: 80%;
+    height: auto;
+}
+
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700px;
+    border-radius: 5px;
+    
+   
+}
+
+.top-banner{
+    background-image: url(img/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+.medal-banner{
+    background-image: url(img/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.experience-item{
+
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 10px;
+    box-shadow: 10px 10px  40px gray ;
+}
+#full-stack-dev{
+    border-left: 10px solid;
+    border-image: linear-gradient( #4d9f0c , #f6b73c) ;
+    border-image-slice: 30;  
+
+   
+}
+#baby-stack-dev{
+
+    border-left: 10px solid;
+    border-image: linear-gradient(blue , cyan) ; 
+    border-image-slice: 30;
+ 
+
+}
+.Experience-developer{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+/*-------------- footer-------------------- */
+
+footer p , a {
+   color: aliceblue;
+    background-color:black;
+text-align: center;
+}
